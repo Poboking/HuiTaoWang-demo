@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.course.dal.mysql.CourseCategoryMapper">
+
+    <insert id="insertAndGetId" keyProperty="categoryDO.categoryId" useGeneratedKeys="true"
+            parameterType="io.studio.course.dal.dataobject.CourseCategoryDO">
+        INSERT INTO course_category(category_id, category_name)
+        VALUES (#{categoryDO.categoryId}, #{categoryDO.categoryName});
+    </insert>
+
+</mapper>

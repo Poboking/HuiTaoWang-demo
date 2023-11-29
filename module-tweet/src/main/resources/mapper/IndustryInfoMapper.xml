@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.tweet.dal.mysql.IndustryInfoMapper">
+    <insert id="insertAndGetId" parameterType="io.studio.tweet.dal.dataobject.IndustryInfoDO">
+        <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="infoDO.infoId">
+            SELECT LAST_INSERT_ID()
+            -- SELECT @@IDENTITY
+        </selectKey>
+        INSERT INTO industry_info(user_id, title, image, content, category_id, recommended)
+        VALUES (#{infoDO.userId}, #{infoDO.title}, #{infoDO.image}, #{infoDO.content},
+        #{infoDO.categoryId}, #{infoDO.recommended});
+    </insert>
+</mapper>

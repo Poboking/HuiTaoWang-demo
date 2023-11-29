@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.mall.dal.mysql.AddressMapper">
+    <insert id="insertAndGetId" keyProperty="addressDO.addressId" useGeneratedKeys="true" parameterType="io.studio.mall.dal.dataobject.AddressDO">
+        INSERT INTO address(user_id, address_line1, address_line2, zip, phone, name)
+        VALUES (#{addressDO.userId}, #{addressDO.addressLine1},#{addressDO.addressLine2}, #{addressDO.zip},
+                #{addressDO.phone}, #{addressDO.name})
+    </insert>
+</mapper>

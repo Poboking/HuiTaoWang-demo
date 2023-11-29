@@ -1,0 +1,3 @@
+# 项目排除路径
+/module-framework/module-common/target/
+/module-framework/module-config/target/

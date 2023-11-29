@@ -1,0 +1,12 @@
+# 统一配置管理
+spring:
+  config:
+    import:
+      - optional: false
+        value: application-dev.yml
+
+
+# 服务器端口号设置
+server:
+  port: 9984
+

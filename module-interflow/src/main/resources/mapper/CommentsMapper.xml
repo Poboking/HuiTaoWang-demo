@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.interflow.dal.mysql.CommentsMapper">
+    <insert id="insertAndGetId" parameterType="io.studio.interflow.dal.dataobject.CommentsDO" useGeneratedKeys="true"
+            keyProperty="commentsDO.commentId">
+        INSERT INTO comments(comment_id, post_id, user_id, content)
+        VALUES (#{commentsDO.commentId}, #{commentsDO.postId}, #{commentsDO.userId}, #{commentsDO.content})
+    </insert>
+</mapper>

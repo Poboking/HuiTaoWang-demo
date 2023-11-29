@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.mall.dal.mysql.CartItemMapper">
+    <insert id="insertAndGetId" parameterType="io.studio.mall.dal.dataobject.CartItemDO" useGeneratedKeys="true" keyProperty="cartItemDO.itemId">
+        INSERT INTO cart_item(cart_id, product_id, quantity)
+            VALUES (#{cartItemDO.cartId},#{cartItemDO.productId},#{cartItemDO.quantity})
+    </insert>
+
+    <delete id="deleteByCartIdAndProductIds">
+        DELETE FROM cart_item
+        WHERE cart_item.cart_id = #{cartId}
+        AND product_id IN
+        <foreach item="productId" collection="productIds" open="(" separator="," close=")">
+            #{productId}
+        </foreach>
+    </delete>
+</mapper>

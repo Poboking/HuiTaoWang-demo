@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.tweet.dal.mysql.IndustryInfoCategoryMapper">
+<!--    插入并返回ID,方法一-->
+    <insert id="insertAndGetId" useGeneratedKeys="true"
+            parameterType="io.studio.tweet.dal.dataobject.IndustryInfoCategoryDO">
+        <selectKey resultType="java.lang.Long" order="AFTER" keyProperty="categoryDO.categoryId">
+            SELECT LAST_INSERT_ID()
+            # SELECT @@IDENTITY
+        </selectKey>
+        INSERT INTO industry_info_category(category_name)
+        VALUES (#{categoryDO.categoryName});
+    </insert>
+</mapper>

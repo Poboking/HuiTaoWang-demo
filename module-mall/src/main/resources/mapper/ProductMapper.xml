@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.mall.dal.mysql.ProductMapper">
+    <insert id="insertAndGetId" parameterType="io.studio.mall.dal.dataobject.ProductDO" useGeneratedKeys="true"
+            keyProperty="productDO.productId">
+        INSERT INTO product(recommend, name, subhead, price, description, image_url)
+        VALUES ( #{productDO.recommend}, #{productDO.name}, #{productDO.subhead}, #{productDO.price}
+               , #{productDO.description}, #{productDO.imageUrl})
+    </insert>
+</mapper>

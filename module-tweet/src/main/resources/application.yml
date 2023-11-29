@@ -1,0 +1,10 @@
+spring:
+    # include: dev 在springboot 2.7后失效了
+  config:
+    import:
+      - optional: false #optional选项需要提供一个boolean值, true表示可选, false表示必须导入.
+        value: application-dev.yml
+
+# 服务器设置
+server:
+  port: 9982

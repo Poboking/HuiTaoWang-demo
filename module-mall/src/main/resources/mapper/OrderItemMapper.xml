@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.mall.dal.mysql.OrderItemMapper">
+    <insert id="insertAndGetId" parameterType="io.studio.mall.dal.dataobject.OrderItemDO" useGeneratedKeys="true" keyProperty="orderItemDO.itemId">
+        INSERT INTO order_item(order_id, product_id, quantity)
+        VALUES (#{orderItemDO.orderId}, #{orderItemDO.productId}, #{orderItemDO.quantity})
+    </insert>
+</mapper>

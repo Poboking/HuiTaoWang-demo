@@ -1,0 +1,14 @@
+# Mysql
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/huitaowang
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: liya4537
+
+  security:
+    user:
+      name: user
+      password: password
+
+

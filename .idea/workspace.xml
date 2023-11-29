@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="module-dependencies" />
+      <module name="HuiTaoWang-demo" />
+      <module name="module-mall" />
+      <module name="module-config" />
+      <module name="module-common" />
+      <module name="module-framework" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f58618ea-d96d-4166-9f88-68b851a83677" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="JUnit5 Test Class" />
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\CSectype\Maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../CSectype/Maven/apache-maven-3.9.5-bin/apache-maven-3.9.5" />
+        <option name="userSettingsFile" value="D:\CSectype\Maven\apache-maven-3.9.5-bin\apache-maven-3.9.5\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2XvFeEMuIn1Vq85eC4AsKQWlVmj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CS/IDEA_javacode/HuiTaoWang-demo/module-framework/module-common/target/module-common-0.0.1-SNAPSHOT.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\CS\IDEA_javacode\HuiTaoWang-demo\module-framework" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.studio.tweet.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.studio.tweet.controller.vo.scenery" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ModuleMallApplication (1)">
+    <configuration name="ModuleMallApplication (1) | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ModuleMallApplication (1).http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="ModuleMallApplication (1) | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/ModuleMallApplication (1).http" index="3" requestIdentifier="#3" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="TempTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.studio.modulemall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.studio.modulemall" />
+      <option name="MAIN_CLASS_NAME" value="io.studio.modulemall.TempTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module-tweet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.studio.tweet.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.studio.tweet.service.test" />
+      <option name="MAIN_CLASS_NAME" value="io.studio.tweet.service.test.Test" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.Test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module-interflow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.studio.interflow.service.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.studio.interflow.service.test" />
+      <option name="MAIN_CLASS_NAME" value="io.studio.interflow.service.test.test" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HuiTaoWangDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HuiTaoWang-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.student.demo.HuiTaoWangDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-course" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.studio.course.ModuleCourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleInterflowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-interflow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.studio.interflow.ModuleInterflowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleMallApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.studio.mall.ModuleMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleMallApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-mall" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.studio.modulemall.ModuleMallApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTweetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-tweet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.studio.tweet.ModuleTweetApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP 请求.ModuleMallApplication (1) | #3" />
+        <item itemvalue="HTTP 请求.ModuleMallApplication (1) | #1" />
+        <item itemvalue="JUnit.TempTest.test" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="JUnit.test.Test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f58618ea-d96d-4166-9f88-68b851a83677" name="更改" comment="" />
+      <created>1699501739278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699501739278</updated>
+      <workItem from="1699501740268" duration="2176000" />
+      <workItem from="1699577792134" duration="602000" />
+      <workItem from="1699578401208" duration="4973000" />
+      <workItem from="1699585907220" duration="2416000" />
+      <workItem from="1699612946036" duration="6567000" />
+      <workItem from="1699686225899" duration="6800000" />
+      <workItem from="1699840362806" duration="9763000" />
+      <workItem from="1699856431643" duration="1740000" />
+      <workItem from="1699924875814" duration="1410000" />
+      <workItem from="1699927904204" duration="5443000" />
+      <workItem from="1700054088724" duration="1460000" />
+      <workItem from="1700117035771" duration="719000" />
+      <workItem from="1700212167357" duration="893000" />
+      <workItem from="1700440457322" duration="10956000" />
+      <workItem from="1700459528300" duration="34298000" />
+      <workItem from="1700612782999" duration="12325000" />
+      <workItem from="1700629206435" duration="9961000" />
+      <workItem from="1700668610233" duration="1023000" />
+      <workItem from="1700699524263" duration="34753000" />
+      <workItem from="1700785826079" duration="21971000" />
+      <workItem from="1700825306525" duration="2534000" />
+      <workItem from="1700828502682" duration="22172000" />
+      <workItem from="1700911056077" duration="6736000" />
+      <workItem from="1700975047211" duration="21272000" />
+      <workItem from="1701044741554" duration="24122000" />
+      <workItem from="1701092554822" duration="1464000" />
+      <workItem from="1701131459205" duration="29490000" />
+      <workItem from="1701218077072" duration="6614000" />
+      <workItem from="1701229971193" duration="1099000" />
+      <workItem from="1701257399340" duration="124000" />
+      <workItem from="1701257535866" duration="392000" />
+      <workItem from="1701257939113" duration="100000" />
+      <workItem from="1701258747703" duration="7114000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="module-course" />
+    <module name="module-interflow" />
+    <module name="module-tweet" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.executor.ExecutorException" package="org.apache.ibatis.executor" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.apache.ibatis.binding.BindingException" package="org.apache.ibatis.binding" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

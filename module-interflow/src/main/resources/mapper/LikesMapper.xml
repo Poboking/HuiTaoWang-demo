@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.interflow.dal.mysql.LikesMapper">
+    <insert id="insertAndGetId" keyProperty="likesDO.likeId" useGeneratedKeys="true"
+            parameterType="io.studio.interflow.dal.dataobject.LikesDO">
+        INSERT INTO likes(like_id, post_id, user_id)
+        VALUES (#{likesDO.likeId}, #{likesDO.postId}, #{likesDO.userId})
+    </insert>
+</mapper>

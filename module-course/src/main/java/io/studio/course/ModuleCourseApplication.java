@@ -1,0 +1,13 @@
+package io.studio.course;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ModuleCourseApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ModuleCourseApplication.class, args);
+	}
+
+}

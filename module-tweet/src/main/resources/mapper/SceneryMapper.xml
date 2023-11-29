@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.tweet.dal.mysql.SceneryMapper">
+<!--    插入并返回ID,方法二-->
+    <insert id="insertAndGetId" parameterType="io.studio.tweet.dal.dataobject.SceneryDO" useGeneratedKeys="true"
+            keyProperty="sceneryDO.sceneryId">
+        INSERT INTO scenery (user_id, title, image, content)
+        VALUES (#{sceneryDO.userId}, #{sceneryDO.title}, #{sceneryDO.image}, #{sceneryDO.content});
+    </insert>
+</mapper>
