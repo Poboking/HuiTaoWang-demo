@@ -2,10 +2,8 @@ package io.studio.tweet.dal.mysql;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import io.studio.tweet.dal.dataobject.IndustryInfoDO;
-import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.SelectKey;
 
 /**
  * Date:2023/11/1011:30

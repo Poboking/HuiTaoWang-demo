@@ -3,3 +3,7 @@ spring:
     import:
       - optional: false
         value: application-dev.yml
+
+# 服务器设置
+server:
+  port: 9982

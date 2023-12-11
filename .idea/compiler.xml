@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="module-common" />
+        <module name="auth" />
         <module name="module-config" />
       </profile>
       <profile name="Annotation profile for HuiTaoWang-demo" enabled="true">
@@ -32,6 +33,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="HuiTaoWang-demo" options="-parameters" />
+      <module name="auth" options="-parameters" />
       <module name="module-common" options="" />
       <module name="module-config" options="" />
       <module name="module-course" options="-parameters" />

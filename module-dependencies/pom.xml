@@ -27,8 +27,11 @@
         <!-- MyBatis-Plus依赖 -->
         <com.baomidou.mybatis-plus.version>3.5.3.1</com.baomidou.mybatis-plus.version>
         <!-- 工具类相关 -->
+        <!-- JWT -->
+        <io.jsonwebtoken.version>0.11.2</io.jsonwebtoken.version>
         <!-- 参数校验 -->
         <javax.validation.version>2.0.1.Final</javax.validation.version>
+        <org.hibernate.validator.version>8.0.0.Final</org.hibernate.validator.version>
         <!-- 类型转换 -->
         <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
         <!-- lombok -->
@@ -123,6 +126,11 @@
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${javax.validation.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate.validator</groupId>
+                <artifactId>hibernate-validator</artifactId>
+                <version>${org.hibernate.validator.version}</version>
             </dependency>
             <!-- 类型转换 -->
             <dependency>
