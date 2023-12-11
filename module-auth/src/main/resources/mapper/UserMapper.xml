@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.studio.auth.dal.mysql.UserMapper">
+    <insert id="insertAndGetID" useGeneratedKeys="true" parameterType="io.studio.auth.dal.dataobject.UserDO"
+            keyProperty="userDO.userId">
+        INSERT INTO user(user_id, user_type, name, phone_number, password)
+        VALUES (#{userDO.userId}, #{userDO.userType}, #{userDO.name}, #{userDO.phoneNumber}, #{userDO.password})
+    </insert>
+    <update id="updateIfNoNull" parameterType="io.studio.auth.dal.dataobject.UserDO">
+        UPDATE user
+        <set>
+            <if test="userDO.avatar != null">avatar = #{userDO.avatar},</if>
+            <if test="userDO.nickName != null">nickname = #{userDO.nickName},</if>
+            <if test="userDO.gender != null">gender = #{userDO.gender},</if>
+            <if test="userDO.name != null">name = #{userDO.name},</if>
+            <if test="userDO.phoneNumber != null">phone_number = #{userDO.phoneNumber},</if>
+        </set>
+        WHERE user_id = #{userDO.userId}
+    </update>
+    <select id="getAvatarUrlListByUserId" resultType="java.lang.String" parameterType="list">
+        SELECT avatar
+        FROM user
+        WHERE user_id IN
+        <foreach collection="list" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+        ORDER BY FIELD(user_id,
+                 <foreach collection="list" item="id" separator=",">
+                     #{id}
+                 </foreach>
+                 )
+    </select>
+
+</mapper>

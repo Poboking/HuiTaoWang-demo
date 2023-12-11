@@ -1,0 +1,23 @@
+
+# Mysql
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/huitaowang
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: liya4537
+
+  security:
+    user:
+      name: user
+      password: password
+# 参数校验
+#  mvc:
+#    validate-request: true
+
+
+# 服务器设置
+server:
+  port: 9985
+
+

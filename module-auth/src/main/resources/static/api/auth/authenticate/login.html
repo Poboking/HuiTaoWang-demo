@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Tone Login</title>
+    <style>
+        body {
+            background-color: #3498db;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #2980b9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #2ecc71;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #27ae60;
+        }
+    </style>
+</head>
+
+<form action="http://localhost:9985/api/auth/authenticate/perform-login" method="post" enctype="application/x-www-form-urlencoded">
+    <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" required
+           title="Please enter a valid 10-digit phone number">
+
+    <button type="submit">Login</button>
+</form>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+</head>
+<body>
+
+<form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileInput">
+    <input type="button" value="Upload" onclick="uploadFile()">
+</form>
+
+<script>
+    function uploadFile() {
+        // 获取文件输入框和文件
+        var fileInput = document.getElementById('fileInput');
+        var file = fileInput.files[0];
+
+        // 创建 FormData 对象，用于构建包含文件的表单数据
+        var formData = new FormData();
+        formData.append('file', file);
+
+        // 发起 AJAX 请求
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://localhost:80/api/v1/auth/upload', true);
+
+        // 设置请求头，enctype 必须设置为 multipart/form-data
+        xhr.setRequestHeader('enctype', 'multipart/form-data');
+
+        // 处理上传进度等事件
+        xhr.upload.onprogress = function(event) {
+            if (event.lengthComputable) {
+                var percent = (event.loaded / event.total) * 100;
+                console.log('Upload Progress: ' + percent + '%');
+            }
+        };
+
+        // 处理上传完成事件
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                console.log('File uploaded successfully!');
+            } else {
+                console.error('Failed to upload the file!');
+            }
+        };
+
+        // 发送请求
+        xhr.send(formData);
+    }
+</script>
+
+</body>
+</html>
